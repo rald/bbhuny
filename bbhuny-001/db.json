@@ -1,49 +1,55 @@
-buyers = [
+db = {
 
+  "dateDelivered": "2024-11-25",
+  "initialPrice": 1140.00,
+  "initialStock": 10,
+  "supplierPrice": 120.00,
+  "sellingPrice": 150.00,
 
-  {
-    "Name": "Tita Letty",
-    "Quantity": 1,
-    "Payment": 150.00,
-    "Date": "2024-11-25"
-  },
+  "buyers": [
 
-  {
-    "Name": "Mama",
-    "Quantity": 2,
-    "Payment": 300.00,
-    "Date": "2024-11-25"
-  },
+    {
+      "Name": "Tita Letty",
+      "Quantity": 1,
+      "Payment": 150.00,
+      "Date": "2024-11-25"
+    },
 
-  {
-    "Name": "Ate Maricel",
-    "Quantity": 2,
-    "Payment": 0.00,
-    "Date": "2024-11-25"
-  },
+    {
+      "Name": "Mama",
+      "Quantity": 2,
+      "Payment": 300.00,
+      "Date": "2024-11-25"
+    },
 
-  {
-    "Name": "Ate Dayday",
-    "Quantity": 1,
-    "Payment": 150.00,
-    "Date": "2024-11-25"
-  },
+    {
+      "Name": "Ate Maricel",
+      "Quantity": 2,
+      "Payment": 0.00,
+      "Date": "2024-11-25"
+    },
 
-  {
-    "Name": "Sis Nida",
-    "Quantity": 1,
-    "Payment": 150.00,
-    "Date": "2024-11-26"
-  },
+    {
+      "Name": "Ate Dayday",
+      "Quantity": 1,
+      "Payment": 150.00,
+      "Date": "2024-11-25"
+    },
 
-  {
-    "Name": "Edu",
-    "Quantity": 2,
-    "Payment": 0.00,
-    "Date": "2024-11-27"
-  },
+    {
+      "Name": "Sis Nida",
+      "Quantity": 1,
+      "Payment": 150.00,
+      "Date": "2024-11-26"
+    },
 
+    {
+      "Name": "Edu",
+      "Quantity": 2,
+      "Payment": 0.00,
+      "Date": "2024-11-27"
+    },
 
-];
+  ]
 
-
+};
