@@ -1,0 +1,49 @@
+buyers = [
+
+
+  {
+    "Name": "Tita Letty",
+    "Quantity": 1,
+    "Payment": 150.00,
+    "Date": "2024-11-25"
+  },
+
+  {
+    "Name": "Mama",
+    "Quantity": 2,
+    "Payment": 300.00,
+    "Date": "2024-11-25"
+  },
+
+  {
+    "Name": "Ate Maricel",
+    "Quantity": 2,
+    "Payment": 0.00,
+    "Date": "2024-11-25"
+  },
+
+  {
+    "Name": "Ate Dayday",
+    "Quantity": 1,
+    "Payment": 150.00,
+    "Date": "2024-11-25"
+  },
+
+  {
+    "Name": "Sis Nida",
+    "Quantity": 1,
+    "Payment": 150.00,
+    "Date": "2024-11-26"
+  },
+
+  {
+    "Name": "Edu",
+    "Quantity": 2,
+    "Payment": 0.00,
+    "Date": "2024-11-27"
+  },
+
+
+];
+
+
