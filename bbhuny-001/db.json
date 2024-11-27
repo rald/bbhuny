@@ -1,4 +1,4 @@
-db = {
+var db = {
 
   "dateDelivered": "2024-11-25",
   "initialPrice": 1140.00,

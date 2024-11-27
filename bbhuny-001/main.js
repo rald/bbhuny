@@ -17,7 +17,7 @@ html += "<th><font color='white'>Balance</font></th>";
 html += "<th><font color='white'>Date</font></th>";
 html += "</tr>";
 
-for (var buyer of buyers) {
+for (var buyer of db.buyers) {
 
     totalQuantity+=buyer.Quantity;
     totalPayment+=buyer.Payment;
@@ -51,7 +51,7 @@ html += "</table>";
 
 html += "<br>";
 
-html += "<br><b>Remaining Stock: </b>" + (initialStock - totalQuantity);
+html += "<br><b>Remaining Stock: </b>" + (db.initialStock - totalQuantity);
 
 html += "<br><b>Kita: </b>" + (totalPayment - db.initialPrice).toFixed(2);
 
