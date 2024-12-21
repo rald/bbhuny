@@ -19,7 +19,7 @@ var count = 0;
 
 var html = "<table border cellspacing='0' cellpadding='2' width='500'>";
 
-html += "<caption><h1>1st Batch " + db.dateDelivered + "</h1></caption>";
+html += "<caption><h1>2nd Batch " + db.dateDelivered + "</h1></caption>";
 
 html += "<tr bgcolor='navy'>";
 html += "<th><font color='white'>#</font></th>";
