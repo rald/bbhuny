@@ -1,6 +1,6 @@
 var db = {
 
-  "dateDelivered": "2024-11-25",
+  "dateDelivered": "11/25/2024",
   "initialPrice": 1140.00,
   "initialStock": 10,
   "supplierPrice": 120.00,
@@ -12,50 +12,50 @@ var db = {
       "Name": "Tita Letty",
       "Quantity": 1,
       "Payment": 150.00,
-      "Date": "2024-11-25"
+      "Date": "11/25/2024"
     },
 
     {
       "Name": "Mama",
       "Quantity": 2,
       "Payment": 300.00,
-      "Date": "2024-11-25"
+      "Date": "11/25/2024"
     },
 
     {
       "Name": "Ate Maricel",
       "Quantity": 2,
-      "Payment": 0.00,
-      "Date": "2024-11-25"
+      "Payment": 300.00,
+      "Date": "11/25/2024"
     },
 
     {
       "Name": "Ate Dayday",
       "Quantity": 1,
       "Payment": 150.00,
-      "Date": "2024-11-25"
+      "Date": "11/25/2024"
     },
 
     {
       "Name": "Sis Nida",
       "Quantity": 1,
       "Payment": 150.00,
-      "Date": "2024-11-26"
+      "Date": "11/26/2024"
     },
 
     {
       "Name": "Edu",
       "Quantity": 2,
-      "Payment": 0.00,
-      "Date": "2024-11-27"
+      "Payment": 300.00,
+      "Date": "11/27/2024"
     },
 
     {
       "Name": "Joseph",
       "Quantity": 1,
-      "Payment": 0.00,
-      "Date": "2024-11-27"
-    },
+      "Payment": 150.00,
+      "Date": "12/23/2024"
+    }
 
   ]
 
