@@ -19,7 +19,7 @@ var count = 0;
 
 var html = "<table border cellspacing='0' cellpadding='2' width='500'>";
 
-html += "<caption><h1>1st Batch " + db.dateDelivered + "</h1></caption>";
+html += "<caption><h1>2nd Batch " + db.dateDelivered + "</h1></caption>";
 
 html += "<tr bgcolor='navy'>";
 html += "<th><font color='white'>#</font></th>";
@@ -71,9 +71,12 @@ html += "</table>";
 
 html += "<br>";
 
+html += "<br><b>Initial Price: </b>" + db.initialPrice;
+
 html += "<br><b>Remaining Stock: </b>" + (db.initialStock - totalQuantity);
 
 cogs = db.supplierPrice * numPaid;
+//  profit = totalPayment - cogs;
 profit = totalPayment - db.initialPrice;
 
 html += "<br><b>Profit: </b>" + profit.toFixed(2);

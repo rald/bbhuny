@@ -1,0 +1,49 @@
+var db = {
+
+  "dateDelivered": "11/29/2024",
+  "initialPrice": 1310.00,
+  "initialStock": 10,
+  "supplierPrice": 120.00,
+  "sellingPrice": 150.00,
+
+  "buyers": [
+
+    {
+      "Name": "Sis Nida",
+      "Quantity": 1,
+      "Payment": 150.00,
+      "Date": "12/04/2024"
+    },
+
+    {
+      "Name": "Mama",
+      "Quantity": 4,
+      "Payment": 600.00,
+      "Date": "12/14/2024"
+    },
+
+
+    {
+      "Name": "Joseph",
+      "Quantity": 1,
+      "Payment": 150.00,
+      "Date": "12/23/2024"
+    },
+
+    {
+      "Name": "Sis Nida",
+      "Quantity": 2,
+      "Payment": 300.00,
+      "Date": "01/08/2025"
+    },
+
+    {
+      "Name": "Ate Maricel",
+      "Quantity": 2,
+      "Payment": 300.00,
+      "Date": "01/01/2025"
+    },
+
+  ]
+
+};
